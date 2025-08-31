@@ -34,6 +34,7 @@ const Game = () => {
     return (
         <div className="game">
             <div className="game-board">
+                <h2>Tic-Tac-Toe Game</h2>
                 <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
             </div>
             <div className="game-info">
